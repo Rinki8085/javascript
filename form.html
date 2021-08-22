@@ -4,6 +4,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <script src="form.js"></script>
+        <link rel="stylesheet" href="form.css" type="text/css">
     </head>
     <body>
         <div class="container">
@@ -26,7 +27,7 @@
                         <div class="form-group">
                             <label for="firstname">FirstName</label>
                             <input class="form-control" placeholder="Fname" value="John"
-                            name="fname" id="firstname" required onblur="nameToUpper"/>
+                            name="fname" id="firstname" required onblur="nameToUpper()"/>
                         </div>
                         <div class="form-group">
                             <label for="lastname">LastName</label>
@@ -44,6 +45,8 @@
                                 <label for="password">Password</label>
                                 <input class="form-control" placeholder="password"
                                 name="password" id="password" type="password" minlength="5"/>
+                                <p id="pout"></p>
+                            <div id="ppout"></div>
                             </div>
                         </div>
                         
