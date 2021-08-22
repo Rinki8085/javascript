@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="calc.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-image: linear-gradient(rgba(135, 190, 235, 0.527), pink, cyan);">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-5">
+                    <h1>Calculator</h1>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                    <h5>Just For Use</h5>
+                    <i class='fas fa-calculator'></i>
+                </div>
+                <div class="panel-body" style="background-image: linear-gradient(rgba(135, 190, 235, 0.527), pink, cyan);">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="first">First Number: </label>
+                            <input id="first" placeholder="Enter the first number">
+                        </div>
+                        <!-------------------------------->
+                        <div class="col-md-6">
+                            <label for="first">Second Number: </label>
+                            <input id="second" placeholder="Enter the second number">
+                        </div>
+                            <h4 class="output"></h5>
+                        <div class="col-md-6">
+                            <button onclick="add()" class="btn btn-info">Addition</button>
+                            <button onclick="sub()" class="btn btn-danger">Subtraction</button>
+                            <button onclick="multi()" class="btn btn-success">Multipliation</button>
+                            <button onclick="mod()" class="btn btn-warning">Module</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

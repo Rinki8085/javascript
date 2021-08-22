@@ -1,0 +1,3 @@
+function nameToUpper(){
+    alert(" Hello ! ")
+}
