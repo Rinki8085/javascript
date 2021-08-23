@@ -10,5 +10,5 @@ function checkPassword(){
 
 function getExp(){
     var exp = document.getElementById('exp').value;
-    document.getElementsByTagName('span').innerText = exp
+    document.getElementsByTagName('span')[0].innerText=`Total Year of experience is ${exp}`
 }
