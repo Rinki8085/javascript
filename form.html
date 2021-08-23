@@ -7,6 +7,11 @@
         <link rel="stylesheet" href="form.css" type="text/css">
     </head>
     <body>
+        <div>
+            <script>
+                alert("Hello! Welcome To This Page.")
+            </script>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-5">
@@ -44,17 +49,17 @@
                             <div class="form-group col-md-6">
                                 <label for="password">Password</label>
                                 <input class="form-control" placeholder="password"
-                                name="password" id="password" type="password" minlength="5" onInput="checkPassword()"/>
+                                name="password" id="password" type="password" 
+                                onInput="checkPassword()"/>
                                 <p id="pout"></p>
                                 <div id="ppout"></div>
                             </div>
-                        </div>
-                        
-                        <span></span>
 
+                        </div>
+                        <span></span>
                         <div class="form-group">
-                            <label for="exp">Experiences</label>
-                            <select class="form-control" id="exp" onChange="getExp()">
+                            <label for="exp">Experience</label>
+                            <select class="form-control" id="exp" onChange="getExp()" >
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
