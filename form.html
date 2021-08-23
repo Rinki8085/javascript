@@ -44,12 +44,23 @@
                             <div class="form-group col-md-6">
                                 <label for="password">Password</label>
                                 <input class="form-control" placeholder="password"
-                                name="password" id="password" type="password" minlength="5"/>
+                                name="password" id="password" type="password" minlength="5" onInput="checkPassword()"/>
                                 <p id="pout"></p>
-                            <div id="ppout"></div>
+                                <div id="ppout"></div>
                             </div>
                         </div>
                         
+                        <span></span>
+
+                        <div class="form-group">
+                            <label for="exp">Experiences</label>
+                            <select class="form-control" id="exp" onChange="getExp()">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
                         <input type="submit" class="btn btn-success"/>
                     </form>
                 </div>
