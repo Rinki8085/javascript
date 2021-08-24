@@ -1,5 +1,6 @@
-function popUp(){
-    alert("Hello! Welcome to This Page.");
+function fillId(){
+    var id = Math.floor(Math.random()*100000)
+    document.getElementById('orderid').value = id
 }
 
 function nameToUpper(){
@@ -8,8 +9,21 @@ function nameToUpper(){
     document.getElementById('firstname').value = fname
 }
 
+//===making password dynamic=====//
 function checkPassword(){
-    alert("Password changed")
+    var pwd = document.getElementById('password').value;
+    if (pwd.length<15){
+        if (pwd.length<8){
+            document.getElementById('pout').innerText = "Minimum length of password is 8";
+            document.getElementById('ppout').style.display= "block";
+            document.getElementById('ppout').style.backgroundColor="red";
+        }else if (pwd.length<11){
+            document.getElementById('pout').innerText = "";
+            document.getElementById('ppout').style.backgroundColor = "orange";
+        }
+    }else{
+        document.getElementById('ppout').style.backgroundColor = "green";
+    }
 }
 
 function getExp(){
