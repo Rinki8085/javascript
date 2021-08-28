@@ -1,8 +1,29 @@
+// For window onload--------------
+function coupn() {
+    var coupon;
+    var code = prompt("Get a coupen code here","Zomo50 or Edu 50")
+    if (code==null || code==""){
+        coupon = "you can get 20% off"
+    }else if (code=="Zomo50"){
+        coupon = "you can get 40% off"
+    }else{
+        coupon = "you can get 40% off"
+    }
+}
+
+// For button onclick-----------
+function coupen(){
+    document.getElementById('coupin').value= coupon;
+    document.getElementById('valid').inneHTML= "You can get 40% off.";
+}
+
+// for window onload to orderid------
 function fillId(){
     var id = Math.floor(Math.random()*100000)
     document.getElementById('orderid').value = id
 }
 
+//For converting into camel case-----
 function nameToUpper(){
     var fname = document.getElementById('firstname').value
     fname = fname.charAt(0).toUpperCase()+fname.slice(1).toLowerCase()

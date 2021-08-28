@@ -1,5 +1,4 @@
 //collection of homogenius 
-
 var a = ['a', 'b', 'c', 'dplp', 'ess']
 var b = [1, 34, 4534, 1232]
 var c = [true, false, true, false]
@@ -51,7 +50,6 @@ city.splice(2,0,'Nice', 'helesink')
 
 var city = ["delhi", "odisha", "west bengal", "thaialnd"]
 city.splice(2,0,'Nice', 'helesink')  // for adding value at a particular location
-[]
 city
 (6) ["delhi", "odisha", "Nice", "helesink", "west bengal", "thaialnd"]
 city.splice(3,1)  
