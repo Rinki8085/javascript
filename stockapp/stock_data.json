@@ -1,0 +1,57 @@
+{
+    "Stockapp":[{
+        "id":1,
+        "name": "ACC",
+        "image":"https://i.ibb.co/djw0VvZ/ACC.jpg",
+        "payload": {}
+    },
+    {
+        "id":2,
+        "name": "BTV",
+        "image":"https://i.ibb.co/b3RNtpr/BTV.png",
+        "payload": {}
+    },
+    {
+        "id":3,
+        "name": "HCL",
+        "image":"https://i.ibb.co/yFMdNpt/HCL.png",
+        "payload": {}
+    },
+    {
+        "id":4,
+        "name": "ICB",
+        "image":"https://i.ibb.co/qJLkL88/ICB.png",
+        "payload": {}
+    },
+    {
+        "id":5,
+        "name": "ITC",
+        "image":"https://i.ibb.co/rQ7w3Xm/ITC.jpg",
+        "payload": {}
+    },
+    {
+        "id":6,
+        "name": "SBI",
+        "image":"https://i.ibb.co/6X61VsL/SBI.png",
+        "payload": {}
+    },
+    {
+        "id":7,
+        "name": "TCS",
+        "image":"https://i.ibb.co/b2k6C3v/TCS.png",
+        "payload": {}
+    },
+    {
+        "id":9,
+        "name": "NAC",
+        "image":"https://i.ibb.co/Fgs2j9R/NAC.jpg",
+        "payload": {}
+    },
+    {
+        "id":10,
+        "name": "MRF",
+        "image":"https://i.ibb.co/mTQvG2N/MRF.jpg",
+        "payload": {}
+    }]
+}
+    
