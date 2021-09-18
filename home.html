@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>map</title>
+        <script src="map.js"></script>
+    </head>
+    <body>
+        <form>
+            <!-- Search location -->
+            <select style="width:40%;" name="Location" id="city" class="custom-select">
+              <option selected> Select Location </option>
+            </select>
+
+            <select style="width:40%;" name="restaurent" id="restaurent" class="custom-select">
+                <option selected> Select Restaurent </option>
+              </select>
+        </form>
+
+        <button onclick="getLocation()">
+          Geo Location
+        </button>
+        <p id="out"></p>
+        <p id="address"></p>
+        <script>
+          var x = document.getElementById('out');
+          var y = document.getElementById('address');
+
+          function getLocation() {
+            if(navigator.geoLocation){
+              navigator.geoLocation.getCurrentPosition()
+            }else{
+              x.innerText="Geo Not Supported"
+            }
+          }
+
+          function showPosition(data){
+            console.log(data)
+            x.innerText='Latitude is $(data.coords.latitude) $ Longitude is $(data.coords.longitude)'
+          }
+        </script>
+
+        <script>
+            window.onload = getCity();
+            window.onload = getHotels();
+        </script>
+    </body>
+</html>
