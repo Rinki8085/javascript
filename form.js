@@ -1,21 +1,21 @@
 // For window onload--------------
+/*
 function coupn() {
-    var coupon;
     var code = prompt("Get a coupen code here","Zomo50 or Edu 50")
     if (code==null || code==""){
         coupon = "you can get 20% off"
     }else if (code=="Zomo50"){
-        coupon = "you can get 40% off"
+      return( "you can get 40% off")
     }else{
-        coupon = "you can get 40% off"
+        return ("you can get 40% off")
     }
 }
 
 // For button onclick-----------
 function coupen(){
-    document.getElementById('coupin').value= coupon;
-    document.getElementById('valid').inneHTML= "You can get 40% off.";
-}
+    document.getElementById('coupin').value = coupon;
+    document.getElementById('valid').innerText= "You can get 40% off.";
+}*/
 
 // for window onload to orderid------
 function fillId(){

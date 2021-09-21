@@ -1,0 +1,35 @@
+{
+  "employee": [
+    {
+      "orderid": "98287",
+      "fname": "John",
+      "lname": "Michale",
+      "email": "John234@gmail.com",
+      "password": "rk@123$rtnjioooo",
+      "id": 1
+    },
+    {
+      "orderid": "542",
+      "fname": "John",
+      "lname": "Michale",
+      "email": "John234@gmail.com",
+      "password": "",
+      "id": 2
+    },
+    {
+      "id": "56666",
+      "fname": "John",
+      "lname": "sharma",
+      "email": "ejrrem2772@gmail.com",
+      "password": "egfejwhfnw"
+    },
+    {
+      "id": "29162",
+      "fname": "John",
+      "lname": "sharma",
+      "email": "ejrrem2772@gmail.com",
+      "password": "",
+      "experience": "4"
+    }
+  ]
+}
