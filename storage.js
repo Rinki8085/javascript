@@ -15,7 +15,7 @@ sessionStorage // temporary storage
 cookies // save with respect to url
         // expires in time
 
-//local storage---------------------------------
+// local storage---------------------------------
 
 localStorage.setItem("city","Delhi")
 undefined
@@ -24,7 +24,7 @@ localStorage.getItem("city")
 localStorage.removeItem("city")
 undefined
 
-//sessionStorage--------------------------------
+// sessionStorage--------------------------------
 
 sessionStorage.setItem("city","Delhi")
 undefined
