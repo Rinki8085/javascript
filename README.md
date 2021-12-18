@@ -50,6 +50,14 @@
                 font-weight: bold;
             }
 
+            #cln{
+                display:block;
+            }
+
+            #cln1{
+                display:none;
+            }
+
             #filtes1{
                 display:none;
             }
@@ -65,9 +73,20 @@
                     <script>
                         function oncl(){
                             document.getElementById('filtes1').style.display = 'block';
+                            document.getElementById('cln').style.display = 'none';
+                            document.getElementById('cln1').style.display = 'block';
+                        }
+                        function oncl1(){
+                            document.getElementById('filtes1').style.display = 'none';
+                            document.getElementById('cln').style.display = 'block';
+                            document.getElementById('cln1').style.display = 'none';
                         }
                     </script>
-                   <div id="sidebar-content"><p>Types</p><span onclick="oncl()"><i class="fas fa-angle-down"></i></span></div>
+                   <div id="sidebar-content">
+                        <p>Types</p>
+                        <span id="cln" onclick="oncl()"><i class="fas fa-angle-down"></i></span>
+                        <span id="cln1" onclick="oncl1()"><i class="fas fa-angle-up"></i></span>
+                    </div>
                    <div id="filtes1">
                     <div>
                         <input type="checkbox"> TV Stands
